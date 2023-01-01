@@ -1,0 +1,22 @@
+input[type="submit"] {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    /* background: red; */
+    background: linear-gradient(45deg, #fe3072, #ff5940);
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+}
+input[type="password"],
+input[type="password-check"],
+input[type="email"] {
+
+    text-transform: uppercase;
+    font-size: 15px;
+    /* background: red; */
+   margin:2px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}

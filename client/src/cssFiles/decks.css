@@ -1,0 +1,51 @@
+:root{
+    --card-width: 256px;
+    --card-heigth: 380px;
+}
+
+
+body{
+    width: 1920px;
+    height: 1080px;
+    background-image: 
+    url('../images/timber_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+
+}
+
+.deckCollection{
+    display: inline-block;
+    position: absolute;
+    width: var(--card-width);
+    height: var(--card-heigth);
+    margin: 20px;
+}
+.BacksideImage{
+    display: inline-block;
+    width: 100%;
+    object-fit:contain;
+    position: relative;
+}
+.decksName::after{
+    content: "  (---Click to edit the deck or play with it)";
+}
+.decksName::before{
+    content: "DECK NAME: ";
+}
+.see-decks{
+    display: inline-block;
+}
+.decksName{
+    text-align: center;
+    align-items: center;
+    /* margin-top: 90%; */
+    align-items: center;
+    position: relative;
+    display: inline;
+    float:inline-start;
+}

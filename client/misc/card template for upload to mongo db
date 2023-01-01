@@ -1,0 +1,29 @@
+,
+                  "cardNum" : ,   	// add one to the previous card added
+	                "name": "",
+	                "image": "",
+			 "rarity":"",	//options are "ultra rare"," common"," rare", as it stands there are no guidelines for what defines rareity.
+	                "description" : "",
+	                "points":,      // int, for minus number eg "-3" for positive number eg "3"
+	                "cardType" : "", Attack OR Defence 
+	                "usage times" : 
+}
+
+
+log in for mongodb is as follows 
+email: teamashmongo@gmail.com
+password: team_Ash1!
+
+once you successfully log in, nativagate to browse collctions
+
+click on "insert document".
+
+press the json option "{}" under the heading "insert into collection"
+
+use the above template INCLUDING THE COMMA.
+
+Once the data is entered click insert and the object has been added.
+
+if you make a mistake dont worry everything can be easily amended.
+If there are any issues let me know.
+-Joshua
